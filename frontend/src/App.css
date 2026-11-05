@@ -1,0 +1,18 @@
+/* Card items ko glassmorphic dark container framework look dene ke liye */
+.card {
+  background-color: #161b22 !important; /* Premium dark surface slate */
+  border: 1px solid #30363d !important; /* Soft edge tech border lines */
+}
+
+/* Inputs, textareas, aur drop-down filters styles settings */
+.form-control, .form-select, .table-light {
+  background-color: #0d1117 !important;
+  border: 1px solid #30363d !important;
+  color: #c9d1d9 !important;
+}
+
+/* Input placeholder text formatting indicators */
+.form-control::placeholder {
+  color: #8b949e !important;
+  opacity: 0.6;
+}
