@@ -6,3 +6,6 @@ pydantic[email]
 python-dotenv
 greenlet
 sqlalchemy[asyncio]
+# Requirements list ke bilkul end mein ye dono lines add kar do:
+psycopg[binary]
+
