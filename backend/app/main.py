@@ -14,18 +14,11 @@ from app.schemas import TaskCreate, TaskOut, TaskUpdate,DashboardMetrics
 
 app = FastAPI(title="Devtracker", version="1.0") 
 
-origins = [
-    "http://localhost:3000",  
-    "http://localhost:5173", 
-    "https://devtracker-jet.vercel.app" 
-]
-
-
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],           
-    allow_credentials=False,           
-    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"], 
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
     allow_headers=["*"],
 )
 

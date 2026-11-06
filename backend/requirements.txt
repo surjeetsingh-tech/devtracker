@@ -1,11 +1,9 @@
 fastapi
 uvicorn[standard]
-sqlalchemy[asyncio]>=2.0.0
+sqlalchemy>=2.0.0
 asyncpg
 pydantic[email]
 python-dotenv
 passlib[bcrypt]
 PyJWT
-greenlet
-psycopg[binary]
-python-multipart
+bcrypt==4.0.1
